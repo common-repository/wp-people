@@ -1,0 +1,71 @@
+/* WP People Popup CSS Document */
+.shadow 
+{
+   border-top: .5px solid #EFEFEF; 
+   border-left: .5px solid #EFEFEF; 
+   border-bottom:1px solid #999; 
+   border-right:1px solid #999;
+   padding:4px;
+   float:left; 
+   width: 125px; 
+   height:140px;
+}
+
+.labels 
+{
+	color: #808080;
+	font-weight: bolder;
+}
+
+#wpPeopleContent{
+  font: 1em Georgia, Palatino, Serif; 
+  padding: 1.5em;
+  background: #f5f5f5;
+  height: 100%;
+}
+
+#personName{
+  float: right;
+  width: 60%;/* em width variance by element*/
+  margin: 0 0 0 0.2em;
+  padding-left: 0.2em;
+  background: #F9FCFE;
+  color: #448ABD;
+  border-left: 4px dotted #448ABD;
+  border-bottom: 4px dotted #448ABD;
+  font-size:large;
+  font-weight:bold;
+  text-align:right;
+}
+
+#personUrl{
+  margin: 1.5em 3%;
+  font: 1em Georgia, Palatino, Serif; 
+  padding: 1.5em;
+  border: 3px dotted  #696969;
+  background: #F9FCFE;
+}
+
+#personPhoto {
+  float: left;
+  width: 11.5em; /* "em size" is element dependent */
+  padding: 0.5em;
+  margin: 0 0.5em 0 0;
+  color: #000000;
+  background: #ffffff;
+  border-right: 4px dotted #448ABD;
+  border-bottom: 4px dotted #448ABD;
+
+}
+
+#personBio{
+  padding: 0.4em;
+  border-top: 4px dotted #448ABD;
+  background: #e6e6fa;
+  text-align:left;
+}
+
+.wppeopleForm label { position: absolute; text-align:right; width:140px; }
+.wppeopleForm input, select, radio, textarea { margin-left: 145px; }
+.wppeopleForm label.check, label.radio { position:relative; text-align:left; }
+.wppeopleForm img { position: absolute; left: 200px; margin-top: 20px; }
